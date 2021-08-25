@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Monisoft_04._070821
 {
-    public partial class Xacthucemail : Form
+    public partial class xacthucemail : Form
     {
-        public Xacthucemail()
+        public xacthucemail()
         {
             InitializeComponent();
         }
@@ -22,22 +22,12 @@ namespace Monisoft_04._070821
 
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void bunifuLabel1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void bunifuLabel2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bunifuLabel3_Click(object sender, EventArgs e)
+        private void bunifuShapes1_ShapeChanged(object sender, Bunifu.UI.WinForms.BunifuShapes.ShapeChangedEventArgs e)
         {
 
         }
