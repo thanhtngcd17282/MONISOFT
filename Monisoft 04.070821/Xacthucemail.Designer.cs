@@ -52,14 +52,14 @@ namespace Monisoft_04._070821
             this.bunifuPanel2 = new Bunifu.UI.WinForms.BunifuPanel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuTextBox1 = new Bunifu.UI.WinForms.BunifuTextBox();
             this.bunifuTextBox2 = new Bunifu.UI.WinForms.BunifuTextBox();
             this.bunifuTextBox3 = new Bunifu.UI.WinForms.BunifuTextBox();
             this.bunifuTextBox4 = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuButton1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.bunifuShapes1 = new Bunifu.UI.WinForms.BunifuShapes();
             this.bunifuLabel3 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuShapes1 = new Bunifu.UI.WinForms.BunifuShapes();
             this.bunifuPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.bunifuPanel2.SuspendLayout();
@@ -99,28 +99,28 @@ namespace Monisoft_04._070821
             this.bunifuPanel2.BorderColor = System.Drawing.Color.Transparent;
             this.bunifuPanel2.BorderRadius = 3;
             this.bunifuPanel2.BorderThickness = 1;
-            this.bunifuPanel2.Controls.Add(this.bunifuLabel3);
             this.bunifuPanel2.Controls.Add(this.bunifuShapes1);
+            this.bunifuPanel2.Controls.Add(this.bunifuLabel3);
             this.bunifuPanel2.Controls.Add(this.bunifuButton1);
+            this.bunifuPanel2.Controls.Add(this.bunifuLabel2);
             this.bunifuPanel2.Controls.Add(this.bunifuTextBox3);
             this.bunifuPanel2.Controls.Add(this.bunifuTextBox4);
             this.bunifuPanel2.Controls.Add(this.bunifuTextBox2);
             this.bunifuPanel2.Controls.Add(this.bunifuTextBox1);
-            this.bunifuPanel2.Controls.Add(this.bunifuLabel2);
             this.bunifuPanel2.Controls.Add(this.bunifuLabel1);
             this.bunifuPanel2.Controls.Add(this.pictureBox2);
-            this.bunifuPanel2.Location = new System.Drawing.Point(629, 0);
+            this.bunifuPanel2.Location = new System.Drawing.Point(630, 0);
             this.bunifuPanel2.Name = "bunifuPanel2";
             this.bunifuPanel2.ShowBorders = true;
-            this.bunifuPanel2.Size = new System.Drawing.Size(367, 561);
+            this.bunifuPanel2.Size = new System.Drawing.Size(366, 561);
             this.bunifuPanel2.TabIndex = 1;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Monisoft_04._070821.Properties.Resources.logo3;
-            this.pictureBox2.Location = new System.Drawing.Point(116, 31);
+            this.pictureBox2.Location = new System.Drawing.Point(116, 22);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(136, 74);
+            this.pictureBox2.Size = new System.Drawing.Size(149, 85);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
@@ -132,7 +132,7 @@ namespace Monisoft_04._070821
             this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel1.Font = new System.Drawing.Font("Montserrat", 13.8F);
             this.bunifuLabel1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.bunifuLabel1.Location = new System.Drawing.Point(98, 137);
+            this.bunifuLabel1.Location = new System.Drawing.Point(104, 134);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel1.Size = new System.Drawing.Size(172, 32);
@@ -140,24 +140,6 @@ namespace Monisoft_04._070821
             this.bunifuLabel1.Text = "Xác thực email";
             this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            this.bunifuLabel1.Click += new System.EventHandler(this.bunifuLabel1_Click);
-            // 
-            // bunifuLabel2
-            // 
-            this.bunifuLabel2.AllowParentOverrides = false;
-            this.bunifuLabel2.AutoEllipsis = false;
-            this.bunifuLabel2.CursorType = null;
-            this.bunifuLabel2.Font = new System.Drawing.Font("Montserrat", 7.8F);
-            this.bunifuLabel2.ForeColor = System.Drawing.Color.MediumSlateBlue;
-            this.bunifuLabel2.Location = new System.Drawing.Point(8, 200);
-            this.bunifuLabel2.Name = "bunifuLabel2";
-            this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel2.Size = new System.Drawing.Size(347, 36);
-            this.bunifuLabel2.TabIndex = 2;
-            this.bunifuLabel2.Text = "Mã code đã được gửi đến email bạn đăng kí, vui lòng \r\nkiểm tra và nhập vào ô bên " +
-    "dưới";
-            this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // bunifuTextBox1
             // 
@@ -186,7 +168,7 @@ namespace Monisoft_04._070821
             this.bunifuTextBox1.IconRight = null;
             this.bunifuTextBox1.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox1.Lines = new string[0];
-            this.bunifuTextBox1.Location = new System.Drawing.Point(49, 264);
+            this.bunifuTextBox1.Location = new System.Drawing.Point(42, 253);
             this.bunifuTextBox1.MaxLength = 32767;
             this.bunifuTextBox1.MinimumSize = new System.Drawing.Size(1, 1);
             this.bunifuTextBox1.Modified = false;
@@ -222,9 +204,9 @@ namespace Monisoft_04._070821
             this.bunifuTextBox1.SelectionLength = 0;
             this.bunifuTextBox1.SelectionStart = 0;
             this.bunifuTextBox1.ShortcutsEnabled = true;
-            this.bunifuTextBox1.Size = new System.Drawing.Size(52, 52);
+            this.bunifuTextBox1.Size = new System.Drawing.Size(56, 54);
             this.bunifuTextBox1.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.bunifuTextBox1.TabIndex = 3;
+            this.bunifuTextBox1.TabIndex = 2;
             this.bunifuTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.bunifuTextBox1.TextMarginBottom = 0;
             this.bunifuTextBox1.TextMarginLeft = 3;
@@ -260,7 +242,7 @@ namespace Monisoft_04._070821
             this.bunifuTextBox2.IconRight = null;
             this.bunifuTextBox2.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox2.Lines = new string[0];
-            this.bunifuTextBox2.Location = new System.Drawing.Point(116, 264);
+            this.bunifuTextBox2.Location = new System.Drawing.Point(116, 253);
             this.bunifuTextBox2.MaxLength = 32767;
             this.bunifuTextBox2.MinimumSize = new System.Drawing.Size(1, 1);
             this.bunifuTextBox2.Modified = false;
@@ -296,9 +278,9 @@ namespace Monisoft_04._070821
             this.bunifuTextBox2.SelectionLength = 0;
             this.bunifuTextBox2.SelectionStart = 0;
             this.bunifuTextBox2.ShortcutsEnabled = true;
-            this.bunifuTextBox2.Size = new System.Drawing.Size(52, 52);
+            this.bunifuTextBox2.Size = new System.Drawing.Size(56, 54);
             this.bunifuTextBox2.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.bunifuTextBox2.TabIndex = 4;
+            this.bunifuTextBox2.TabIndex = 3;
             this.bunifuTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.bunifuTextBox2.TextMarginBottom = 0;
             this.bunifuTextBox2.TextMarginLeft = 3;
@@ -334,7 +316,7 @@ namespace Monisoft_04._070821
             this.bunifuTextBox3.IconRight = null;
             this.bunifuTextBox3.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox3.Lines = new string[0];
-            this.bunifuTextBox3.Location = new System.Drawing.Point(251, 264);
+            this.bunifuTextBox3.Location = new System.Drawing.Point(268, 253);
             this.bunifuTextBox3.MaxLength = 32767;
             this.bunifuTextBox3.MinimumSize = new System.Drawing.Size(1, 1);
             this.bunifuTextBox3.Modified = false;
@@ -370,9 +352,9 @@ namespace Monisoft_04._070821
             this.bunifuTextBox3.SelectionLength = 0;
             this.bunifuTextBox3.SelectionStart = 0;
             this.bunifuTextBox3.ShortcutsEnabled = true;
-            this.bunifuTextBox3.Size = new System.Drawing.Size(52, 52);
+            this.bunifuTextBox3.Size = new System.Drawing.Size(56, 54);
             this.bunifuTextBox3.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.bunifuTextBox3.TabIndex = 6;
+            this.bunifuTextBox3.TabIndex = 5;
             this.bunifuTextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.bunifuTextBox3.TextMarginBottom = 0;
             this.bunifuTextBox3.TextMarginLeft = 3;
@@ -408,7 +390,7 @@ namespace Monisoft_04._070821
             this.bunifuTextBox4.IconRight = null;
             this.bunifuTextBox4.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox4.Lines = new string[0];
-            this.bunifuTextBox4.Location = new System.Drawing.Point(184, 264);
+            this.bunifuTextBox4.Location = new System.Drawing.Point(194, 253);
             this.bunifuTextBox4.MaxLength = 32767;
             this.bunifuTextBox4.MinimumSize = new System.Drawing.Size(1, 1);
             this.bunifuTextBox4.Modified = false;
@@ -444,9 +426,9 @@ namespace Monisoft_04._070821
             this.bunifuTextBox4.SelectionLength = 0;
             this.bunifuTextBox4.SelectionStart = 0;
             this.bunifuTextBox4.ShortcutsEnabled = true;
-            this.bunifuTextBox4.Size = new System.Drawing.Size(52, 52);
+            this.bunifuTextBox4.Size = new System.Drawing.Size(56, 54);
             this.bunifuTextBox4.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.bunifuTextBox4.TabIndex = 5;
+            this.bunifuTextBox4.TabIndex = 4;
             this.bunifuTextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.bunifuTextBox4.TextMarginBottom = 0;
             this.bunifuTextBox4.TextMarginLeft = 3;
@@ -454,6 +436,23 @@ namespace Monisoft_04._070821
             this.bunifuTextBox4.TextPlaceholder = "";
             this.bunifuTextBox4.UseSystemPasswordChar = false;
             this.bunifuTextBox4.WordWrap = true;
+            // 
+            // bunifuLabel2
+            // 
+            this.bunifuLabel2.AllowParentOverrides = false;
+            this.bunifuLabel2.AutoEllipsis = false;
+            this.bunifuLabel2.CursorType = null;
+            this.bunifuLabel2.Font = new System.Drawing.Font("Montserrat", 7.8F);
+            this.bunifuLabel2.ForeColor = System.Drawing.Color.MediumSlateBlue;
+            this.bunifuLabel2.Location = new System.Drawing.Point(14, 188);
+            this.bunifuLabel2.Name = "bunifuLabel2";
+            this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel2.Size = new System.Drawing.Size(347, 36);
+            this.bunifuLabel2.TabIndex = 6;
+            this.bunifuLabel2.Text = "Mã code đã được gửi đến email bạn đăng kí, vui lòng \r\nkiểm tra và nhập vào ô bên " +
+    "dưới";
+            this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // bunifuButton1
             // 
@@ -495,17 +494,17 @@ namespace Monisoft_04._070821
             this.bunifuButton1.IconRightCursor = System.Windows.Forms.Cursors.Default;
             this.bunifuButton1.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
             this.bunifuButton1.IconSize = 25;
-            this.bunifuButton1.IdleBorderColor = System.Drawing.Color.MediumSlateBlue;
-            this.bunifuButton1.IdleBorderRadius = 10;
+            this.bunifuButton1.IdleBorderColor = System.Drawing.Color.BlueViolet;
+            this.bunifuButton1.IdleBorderRadius = 15;
             this.bunifuButton1.IdleBorderThickness = 1;
             this.bunifuButton1.IdleFillColor = System.Drawing.Color.BlueViolet;
             this.bunifuButton1.IdleIconLeftImage = null;
             this.bunifuButton1.IdleIconRightImage = null;
             this.bunifuButton1.IndicateFocus = false;
-            this.bunifuButton1.Location = new System.Drawing.Point(103, 351);
+            this.bunifuButton1.Location = new System.Drawing.Point(116, 350);
             this.bunifuButton1.Name = "bunifuButton1";
             this.bunifuButton1.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.bunifuButton1.OnDisabledState.BorderRadius = 10;
+            this.bunifuButton1.OnDisabledState.BorderRadius = 15;
             this.bunifuButton1.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.bunifuButton1.OnDisabledState.BorderThickness = 1;
             this.bunifuButton1.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -513,15 +512,15 @@ namespace Monisoft_04._070821
             this.bunifuButton1.OnDisabledState.IconLeftImage = null;
             this.bunifuButton1.OnDisabledState.IconRightImage = null;
             this.bunifuButton1.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.bunifuButton1.onHoverState.BorderRadius = 10;
+            this.bunifuButton1.onHoverState.BorderRadius = 15;
             this.bunifuButton1.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.bunifuButton1.onHoverState.BorderThickness = 1;
             this.bunifuButton1.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             this.bunifuButton1.onHoverState.ForeColor = System.Drawing.Color.White;
             this.bunifuButton1.onHoverState.IconLeftImage = null;
             this.bunifuButton1.onHoverState.IconRightImage = null;
-            this.bunifuButton1.OnIdleState.BorderColor = System.Drawing.Color.MediumSlateBlue;
-            this.bunifuButton1.OnIdleState.BorderRadius = 10;
+            this.bunifuButton1.OnIdleState.BorderColor = System.Drawing.Color.BlueViolet;
+            this.bunifuButton1.OnIdleState.BorderRadius = 15;
             this.bunifuButton1.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.bunifuButton1.OnIdleState.BorderThickness = 1;
             this.bunifuButton1.OnIdleState.FillColor = System.Drawing.Color.BlueViolet;
@@ -529,20 +528,36 @@ namespace Monisoft_04._070821
             this.bunifuButton1.OnIdleState.IconLeftImage = null;
             this.bunifuButton1.OnIdleState.IconRightImage = null;
             this.bunifuButton1.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.bunifuButton1.OnPressedState.BorderRadius = 10;
+            this.bunifuButton1.OnPressedState.BorderRadius = 15;
             this.bunifuButton1.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.bunifuButton1.OnPressedState.BorderThickness = 1;
             this.bunifuButton1.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
             this.bunifuButton1.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.bunifuButton1.OnPressedState.IconLeftImage = null;
             this.bunifuButton1.OnPressedState.IconRightImage = null;
-            this.bunifuButton1.Size = new System.Drawing.Size(138, 57);
+            this.bunifuButton1.Size = new System.Drawing.Size(134, 49);
             this.bunifuButton1.TabIndex = 7;
             this.bunifuButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.bunifuButton1.TextMarginLeft = 0;
             this.bunifuButton1.TextPadding = new System.Windows.Forms.Padding(0);
             this.bunifuButton1.UseDefaultRadiusAndThickness = true;
+            // 
+            // bunifuLabel3
+            // 
+            this.bunifuLabel3.AllowParentOverrides = false;
+            this.bunifuLabel3.AutoEllipsis = false;
+            this.bunifuLabel3.CursorType = null;
+            this.bunifuLabel3.Font = new System.Drawing.Font("Montserrat", 9F);
+            this.bunifuLabel3.ForeColor = System.Drawing.Color.BlueViolet;
+            this.bunifuLabel3.Location = new System.Drawing.Point(140, 411);
+            this.bunifuLabel3.Name = "bunifuLabel3";
+            this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel3.Size = new System.Drawing.Size(76, 21);
+            this.bunifuLabel3.TabIndex = 8;
+            this.bunifuLabel3.Text = "Gửi lại mã";
+            this.bunifuLabel3.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel3.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // bunifuShapes1
             // 
@@ -552,30 +567,14 @@ namespace Monisoft_04._070821
             this.bunifuShapes1.BorderThickness = 2;
             this.bunifuShapes1.FillColor = System.Drawing.Color.Transparent;
             this.bunifuShapes1.FillShape = true;
-            this.bunifuShapes1.Location = new System.Drawing.Point(133, 445);
+            this.bunifuShapes1.Location = new System.Drawing.Point(140, 430);
             this.bunifuShapes1.Name = "bunifuShapes1";
             this.bunifuShapes1.Shape = Bunifu.UI.WinForms.BunifuShapes.Shapes.Line;
             this.bunifuShapes1.Sides = 5;
-            this.bunifuShapes1.Size = new System.Drawing.Size(76, 13);
-            this.bunifuShapes1.TabIndex = 8;
+            this.bunifuShapes1.Size = new System.Drawing.Size(73, 10);
+            this.bunifuShapes1.TabIndex = 9;
             this.bunifuShapes1.Text = "bunifuShapes1";
-            this.bunifuShapes1.ShapeChanged += new System.EventHandler<Bunifu.UI.WinForms.BunifuShapes.ShapeChangedEventArgs>(this.bunifuShapes1_ShapeChanged);
-            // 
-            // bunifuLabel3
-            // 
-            this.bunifuLabel3.AllowParentOverrides = false;
-            this.bunifuLabel3.AutoEllipsis = false;
-            this.bunifuLabel3.CursorType = null;
-            this.bunifuLabel3.Font = new System.Drawing.Font("Montserrat", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel3.ForeColor = System.Drawing.Color.MediumPurple;
-            this.bunifuLabel3.Location = new System.Drawing.Point(133, 427);
-            this.bunifuLabel3.Name = "bunifuLabel3";
-            this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel3.Size = new System.Drawing.Size(76, 21);
-            this.bunifuLabel3.TabIndex = 9;
-            this.bunifuLabel3.Text = "Gửi lại mã";
-            this.bunifuLabel3.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel3.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.bunifuShapes1.ShapeChanged += new System.EventHandler<Bunifu.UI.WinForms.BunifuShapes.ShapeChangedEventArgs>(this.bunifuShapes1_ShapeChanged_1);
             // 
             // xacthucemail
             // 
@@ -601,15 +600,15 @@ namespace Monisoft_04._070821
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel2;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel3;
         private Bunifu.UI.WinForms.BunifuShapes bunifuShapes1;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel3;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton1;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel2;
         private Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox3;
         private Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox4;
         private Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox2;
         private Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox1;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel2;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

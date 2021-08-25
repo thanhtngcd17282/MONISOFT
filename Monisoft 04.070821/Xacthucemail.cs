@@ -31,5 +31,10 @@ namespace Monisoft_04._070821
         {
 
         }
+
+        private void bunifuShapes1_ShapeChanged_1(object sender, Bunifu.UI.WinForms.BunifuShapes.ShapeChangedEventArgs e)
+        {
+
+        }
     }
 }

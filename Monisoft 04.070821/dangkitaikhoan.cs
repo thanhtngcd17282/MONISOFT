@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Monisoft_04._070821
 {
-    public partial class dangkitaikhoan : Form
+    public partial class Dangkitaikhoan : Form
     {
-        public dangkitaikhoan()
+        public Dangkitaikhoan()
         {
             InitializeComponent();
         }
