@@ -81,16 +81,18 @@ namespace Monisoft_04._070821
             this.panelLeftIntro.Controls.Add(this.pictureBox1);
             this.panelLeftIntro.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelLeftIntro.Location = new System.Drawing.Point(0, 0);
+            this.panelLeftIntro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelLeftIntro.Name = "panelLeftIntro";
-            this.panelLeftIntro.Size = new System.Drawing.Size(529, 450);
+            this.panelLeftIntro.Size = new System.Drawing.Size(705, 554);
             this.panelLeftIntro.TabIndex = 0;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Monisoft_04._070821.Properties.Resources.Intro;
-            this.pictureBox1.Location = new System.Drawing.Point(0, -82);
+            this.pictureBox1.Location = new System.Drawing.Point(0, -101);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(902, 645);
+            this.pictureBox1.Size = new System.Drawing.Size(1203, 794);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -119,9 +121,10 @@ namespace Monisoft_04._070821
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.shapeContainer1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(535, 0);
+            this.panel1.Location = new System.Drawing.Point(714, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(265, 450);
+            this.panel1.Size = new System.Drawing.Size(353, 554);
             this.panel1.TabIndex = 1;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
@@ -131,9 +134,10 @@ namespace Monisoft_04._070821
             this.lblErrorMessage.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblErrorMessage.ForeColor = System.Drawing.Color.Red;
             this.lblErrorMessage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblErrorMessage.Location = new System.Drawing.Point(51, 245);
+            this.lblErrorMessage.Location = new System.Drawing.Point(68, 302);
+            this.lblErrorMessage.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblErrorMessage.Name = "lblErrorMessage";
-            this.lblErrorMessage.Size = new System.Drawing.Size(60, 12);
+            this.lblErrorMessage.Size = new System.Drawing.Size(78, 15);
             this.lblErrorMessage.TabIndex = 25;
             this.lblErrorMessage.Text = "ErrorMessage";
             this.lblErrorMessage.Visible = false;
@@ -145,10 +149,11 @@ namespace Monisoft_04._070821
             this.lblErrorMessage2.IconChar = FontAwesome.Sharp.IconChar.ExclamationCircle;
             this.lblErrorMessage2.IconColor = System.Drawing.Color.Red;
             this.lblErrorMessage2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.lblErrorMessage2.IconSize = 15;
-            this.lblErrorMessage2.Location = new System.Drawing.Point(33, 245);
+            this.lblErrorMessage2.IconSize = 18;
+            this.lblErrorMessage2.Location = new System.Drawing.Point(44, 302);
+            this.lblErrorMessage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lblErrorMessage2.Name = "lblErrorMessage2";
-            this.lblErrorMessage2.Size = new System.Drawing.Size(15, 15);
+            this.lblErrorMessage2.Size = new System.Drawing.Size(20, 18);
             this.lblErrorMessage2.TabIndex = 24;
             this.lblErrorMessage2.TabStop = false;
             this.lblErrorMessage2.Visible = false;
@@ -182,7 +187,8 @@ namespace Monisoft_04._070821
             this.txtUser.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtUser.Lines = new string[] {
         "nbhung"};
-            this.txtUser.Location = new System.Drawing.Point(33, 145);
+            this.txtUser.Location = new System.Drawing.Point(44, 178);
+            this.txtUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtUser.MaxLength = 32767;
             this.txtUser.MinimumSize = new System.Drawing.Size(1, 1);
             this.txtUser.Modified = false;
@@ -208,7 +214,7 @@ namespace Monisoft_04._070821
             stateProperties4.ForeColor = System.Drawing.Color.DimGray;
             stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtUser.OnIdleState = stateProperties4;
-            this.txtUser.Padding = new System.Windows.Forms.Padding(3);
+            this.txtUser.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtUser.PasswordChar = '\0';
             this.txtUser.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtUser.PlaceholderText = "";
@@ -218,7 +224,7 @@ namespace Monisoft_04._070821
             this.txtUser.SelectionLength = 0;
             this.txtUser.SelectionStart = 0;
             this.txtUser.ShortcutsEnabled = true;
-            this.txtUser.Size = new System.Drawing.Size(203, 36);
+            this.txtUser.Size = new System.Drawing.Size(271, 44);
             this.txtUser.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtUser.TabIndex = 23;
             this.txtUser.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -237,9 +243,10 @@ namespace Monisoft_04._070821
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.DimGray;
-            this.label8.Location = new System.Drawing.Point(113, 359);
+            this.label8.Location = new System.Drawing.Point(151, 442);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(33, 15);
+            this.label8.Size = new System.Drawing.Size(41, 20);
             this.label8.TabIndex = 22;
             this.label8.Text = "hoặc";
             // 
@@ -248,18 +255,20 @@ namespace Monisoft_04._070821
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.DimGray;
-            this.label7.Location = new System.Drawing.Point(56, 270);
+            this.label7.Location = new System.Drawing.Point(75, 332);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(87, 15);
+            this.label7.Size = new System.Drawing.Size(108, 20);
             this.label7.TabIndex = 20;
             this.label7.Text = "Lưu đăng nhập";
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(37, 392);
+            this.pictureBox3.Location = new System.Drawing.Point(49, 482);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(21, 22);
+            this.pictureBox3.Size = new System.Drawing.Size(28, 27);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 19;
             this.pictureBox3.TabStop = false;
@@ -311,7 +320,8 @@ namespace Monisoft_04._070821
             this.bunifuButton2.IdleIconLeftImage = null;
             this.bunifuButton2.IdleIconRightImage = null;
             this.bunifuButton2.IndicateFocus = false;
-            this.bunifuButton2.Location = new System.Drawing.Point(31, 385);
+            this.bunifuButton2.Location = new System.Drawing.Point(41, 474);
+            this.bunifuButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuButton2.Name = "bunifuButton2";
             this.bunifuButton2.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton2.OnDisabledState.BorderRadius = 15;
@@ -345,7 +355,7 @@ namespace Monisoft_04._070821
             this.bunifuButton2.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.bunifuButton2.OnPressedState.IconLeftImage = null;
             this.bunifuButton2.OnPressedState.IconRightImage = null;
-            this.bunifuButton2.Size = new System.Drawing.Size(203, 35);
+            this.bunifuButton2.Size = new System.Drawing.Size(271, 43);
             this.bunifuButton2.TabIndex = 18;
             this.bunifuButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton2.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -371,8 +381,9 @@ namespace Monisoft_04._070821
             this.bunifuCheckBox1.CheckState = Bunifu.UI.WinForms.BunifuCheckBox.CheckStates.Checked;
             this.bunifuCheckBox1.Cursor = System.Windows.Forms.Cursors.Default;
             this.bunifuCheckBox1.CustomCheckmarkImage = null;
-            this.bunifuCheckBox1.Location = new System.Drawing.Point(33, 268);
-            this.bunifuCheckBox1.MinimumSize = new System.Drawing.Size(17, 17);
+            this.bunifuCheckBox1.Location = new System.Drawing.Point(44, 330);
+            this.bunifuCheckBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuCheckBox1.MinimumSize = new System.Drawing.Size(23, 21);
             this.bunifuCheckBox1.Name = "bunifuCheckBox1";
             this.bunifuCheckBox1.OnCheck.BorderColor = System.Drawing.Color.Silver;
             this.bunifuCheckBox1.OnCheck.BorderRadius = 5;
@@ -400,7 +411,7 @@ namespace Monisoft_04._070821
             this.bunifuCheckBox1.OnUncheck.BorderRadius = 5;
             this.bunifuCheckBox1.OnUncheck.BorderThickness = 1;
             this.bunifuCheckBox1.OnUncheck.CheckBoxColor = System.Drawing.Color.Transparent;
-            this.bunifuCheckBox1.Size = new System.Drawing.Size(17, 17);
+            this.bunifuCheckBox1.Size = new System.Drawing.Size(23, 23);
             this.bunifuCheckBox1.Style = Bunifu.UI.WinForms.BunifuCheckBox.CheckBoxStyles.Bunifu;
             this.bunifuCheckBox1.TabIndex = 17;
             this.bunifuCheckBox1.ThreeState = false;
@@ -413,10 +424,11 @@ namespace Monisoft_04._070821
             this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.Eye;
             this.iconPictureBox1.IconColor = System.Drawing.SystemColors.ControlText;
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox1.IconSize = 18;
-            this.iconPictureBox1.Location = new System.Drawing.Point(208, 216);
+            this.iconPictureBox1.IconSize = 24;
+            this.iconPictureBox1.Location = new System.Drawing.Point(277, 266);
+            this.iconPictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.iconPictureBox1.Name = "iconPictureBox1";
-            this.iconPictureBox1.Size = new System.Drawing.Size(18, 20);
+            this.iconPictureBox1.Size = new System.Drawing.Size(24, 25);
             this.iconPictureBox1.TabIndex = 16;
             this.iconPictureBox1.TabStop = false;
             // 
@@ -449,7 +461,8 @@ namespace Monisoft_04._070821
             this.txtPassword.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtPassword.Lines = new string[] {
         "password"};
-            this.txtPassword.Location = new System.Drawing.Point(31, 206);
+            this.txtPassword.Location = new System.Drawing.Point(41, 254);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPassword.MaxLength = 32767;
             this.txtPassword.MinimumSize = new System.Drawing.Size(1, 1);
             this.txtPassword.Modified = false;
@@ -475,7 +488,7 @@ namespace Monisoft_04._070821
             stateProperties8.ForeColor = System.Drawing.Color.DimGray;
             stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtPassword.OnIdleState = stateProperties8;
-            this.txtPassword.Padding = new System.Windows.Forms.Padding(3);
+            this.txtPassword.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPassword.PasswordChar = '\0';
             this.txtPassword.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtPassword.PlaceholderText = "";
@@ -485,7 +498,7 @@ namespace Monisoft_04._070821
             this.txtPassword.SelectionLength = 0;
             this.txtPassword.SelectionStart = 8;
             this.txtPassword.ShortcutsEnabled = true;
-            this.txtPassword.Size = new System.Drawing.Size(203, 36);
+            this.txtPassword.Size = new System.Drawing.Size(271, 44);
             this.txtPassword.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtPassword.TabIndex = 15;
             this.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -546,7 +559,8 @@ namespace Monisoft_04._070821
             this.bunifuButton1.IdleIconLeftImage = null;
             this.bunifuButton1.IdleIconRightImage = null;
             this.bunifuButton1.IndicateFocus = false;
-            this.bunifuButton1.Location = new System.Drawing.Point(31, 293);
+            this.bunifuButton1.Location = new System.Drawing.Point(41, 361);
+            this.bunifuButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuButton1.Name = "bunifuButton1";
             this.bunifuButton1.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton1.OnDisabledState.BorderRadius = 15;
@@ -580,7 +594,7 @@ namespace Monisoft_04._070821
             this.bunifuButton1.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.bunifuButton1.OnPressedState.IconLeftImage = null;
             this.bunifuButton1.OnPressedState.IconRightImage = null;
-            this.bunifuButton1.Size = new System.Drawing.Size(203, 35);
+            this.bunifuButton1.Size = new System.Drawing.Size(271, 43);
             this.bunifuButton1.TabIndex = 13;
             this.bunifuButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -592,9 +606,10 @@ namespace Monisoft_04._070821
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Monisoft_04._070821.Properties.Resources.logo3;
-            this.pictureBox2.Location = new System.Drawing.Point(62, 18);
+            this.pictureBox2.Location = new System.Drawing.Point(83, 22);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(128, 69);
+            this.pictureBox2.Size = new System.Drawing.Size(171, 85);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 12;
             this.pictureBox2.TabStop = false;
@@ -604,9 +619,10 @@ namespace Monisoft_04._070821
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(103)))), ((int)(((byte)(240)))));
-            this.label6.Location = new System.Drawing.Point(139, 336);
+            this.label6.Location = new System.Drawing.Point(185, 414);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(79, 15);
+            this.label6.Size = new System.Drawing.Size(99, 20);
             this.label6.TabIndex = 11;
             this.label6.Text = "Đăng ký ngay";
             // 
@@ -615,9 +631,10 @@ namespace Monisoft_04._070821
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.DimGray;
-            this.label5.Location = new System.Drawing.Point(35, 336);
+            this.label5.Location = new System.Drawing.Point(47, 414);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(108, 15);
+            this.label5.Size = new System.Drawing.Size(135, 20);
             this.label5.TabIndex = 10;
             this.label5.Text = "Chưa có tài khoản?";
             // 
@@ -626,9 +643,10 @@ namespace Monisoft_04._070821
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(103)))), ((int)(((byte)(240)))));
-            this.label4.Location = new System.Drawing.Point(140, 188);
+            this.label4.Location = new System.Drawing.Point(187, 231);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(94, 15);
+            this.label4.Size = new System.Drawing.Size(116, 20);
             this.label4.TabIndex = 9;
             this.label4.Text = "Quên mật khẩu?";
             // 
@@ -637,9 +655,10 @@ namespace Monisoft_04._070821
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.DimGray;
-            this.label3.Location = new System.Drawing.Point(29, 188);
+            this.label3.Location = new System.Drawing.Point(39, 231);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(57, 15);
+            this.label3.Size = new System.Drawing.Size(70, 20);
             this.label3.TabIndex = 8;
             this.label3.Text = "Mật khẩu";
             // 
@@ -648,9 +667,10 @@ namespace Monisoft_04._070821
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DimGray;
-            this.label2.Location = new System.Drawing.Point(74, 90);
+            this.label2.Location = new System.Drawing.Point(99, 111);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 25);
+            this.label2.Size = new System.Drawing.Size(133, 32);
             this.label2.TabIndex = 7;
             this.label2.Text = "Đăng nhập";
             // 
@@ -659,9 +679,10 @@ namespace Monisoft_04._070821
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DimGray;
-            this.label1.Location = new System.Drawing.Point(30, 127);
+            this.label1.Location = new System.Drawing.Point(40, 156);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 15);
+            this.label1.Size = new System.Drawing.Size(107, 20);
             this.label1.TabIndex = 6;
             this.label1.Text = "Tên đăng nhập";
             // 
@@ -673,7 +694,7 @@ namespace Monisoft_04._070821
             this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.lineShape2,
             this.lineShape1});
-            this.shapeContainer1.Size = new System.Drawing.Size(265, 450);
+            this.shapeContainer1.Size = new System.Drawing.Size(353, 554);
             this.shapeContainer1.TabIndex = 21;
             this.shapeContainer1.TabStop = false;
             // 
@@ -699,19 +720,21 @@ namespace Monisoft_04._070821
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // Intro
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelLeftIntro);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Intro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Intro";
