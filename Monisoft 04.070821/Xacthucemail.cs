@@ -36,5 +36,15 @@ namespace Monisoft_04._070821
         {
 
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
