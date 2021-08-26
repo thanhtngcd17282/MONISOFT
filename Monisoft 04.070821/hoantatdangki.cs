@@ -26,5 +26,10 @@ namespace Monisoft_04._070821
         {
 
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
