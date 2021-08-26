@@ -37,22 +37,22 @@
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblErrorMessage = new System.Windows.Forms.Label();
-            this.lblErrorMessage2 = new FontAwesome.Sharp.IconPictureBox();
+            this.iconErrorMessage1 = new FontAwesome.Sharp.IconPictureBox();
             this.txtEmailRegister = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lblhoac = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.bntdangnhapgg = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bntguimadangki = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbllogin = new System.Windows.Forms.Label();
+            this.lblemail = new System.Windows.Forms.Label();
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.lineShape2 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.panelLeftIntro = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.lblErrorMessage2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconErrorMessage1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panelLeftIntro.SuspendLayout();
@@ -63,15 +63,15 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.lblErrorMessage);
-            this.panel1.Controls.Add(this.lblErrorMessage2);
+            this.panel1.Controls.Add(this.iconErrorMessage1);
             this.panel1.Controls.Add(this.txtEmailRegister);
-            this.panel1.Controls.Add(this.label8);
+            this.panel1.Controls.Add(this.lblhoac);
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.bntdangnhapgg);
             this.panel1.Controls.Add(this.bntguimadangki);
             this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.lbllogin);
+            this.panel1.Controls.Add(this.lblemail);
             this.panel1.Controls.Add(this.shapeContainer1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel1.Location = new System.Drawing.Point(714, 0);
@@ -94,21 +94,21 @@
             this.lblErrorMessage.Text = "ErrorMessage";
             this.lblErrorMessage.Visible = false;
             // 
-            // lblErrorMessage2
+            // iconErrorMessage1
             // 
-            this.lblErrorMessage2.BackColor = System.Drawing.Color.White;
-            this.lblErrorMessage2.ForeColor = System.Drawing.Color.Red;
-            this.lblErrorMessage2.IconChar = FontAwesome.Sharp.IconChar.ExclamationCircle;
-            this.lblErrorMessage2.IconColor = System.Drawing.Color.Red;
-            this.lblErrorMessage2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.lblErrorMessage2.IconSize = 18;
-            this.lblErrorMessage2.Location = new System.Drawing.Point(46, 226);
-            this.lblErrorMessage2.Margin = new System.Windows.Forms.Padding(4);
-            this.lblErrorMessage2.Name = "lblErrorMessage2";
-            this.lblErrorMessage2.Size = new System.Drawing.Size(20, 18);
-            this.lblErrorMessage2.TabIndex = 24;
-            this.lblErrorMessage2.TabStop = false;
-            this.lblErrorMessage2.Visible = false;
+            this.iconErrorMessage1.BackColor = System.Drawing.Color.White;
+            this.iconErrorMessage1.ForeColor = System.Drawing.Color.Red;
+            this.iconErrorMessage1.IconChar = FontAwesome.Sharp.IconChar.ExclamationCircle;
+            this.iconErrorMessage1.IconColor = System.Drawing.Color.Red;
+            this.iconErrorMessage1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconErrorMessage1.IconSize = 18;
+            this.iconErrorMessage1.Location = new System.Drawing.Point(46, 226);
+            this.iconErrorMessage1.Margin = new System.Windows.Forms.Padding(4);
+            this.iconErrorMessage1.Name = "iconErrorMessage1";
+            this.iconErrorMessage1.Size = new System.Drawing.Size(20, 18);
+            this.iconErrorMessage1.TabIndex = 24;
+            this.iconErrorMessage1.TabStop = false;
+            this.iconErrorMessage1.Visible = false;
             // 
             // txtEmailRegister
             // 
@@ -186,17 +186,17 @@
             this.txtEmailRegister.UseSystemPasswordChar = false;
             this.txtEmailRegister.WordWrap = true;
             // 
-            // label8
+            // lblhoac
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.DimGray;
-            this.label8.Location = new System.Drawing.Point(149, 356);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(41, 20);
-            this.label8.TabIndex = 22;
-            this.label8.Text = "hoặc";
+            this.lblhoac.AutoSize = true;
+            this.lblhoac.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblhoac.ForeColor = System.Drawing.Color.DimGray;
+            this.lblhoac.Location = new System.Drawing.Point(149, 356);
+            this.lblhoac.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblhoac.Name = "lblhoac";
+            this.lblhoac.Size = new System.Drawing.Size(41, 20);
+            this.lblhoac.TabIndex = 22;
+            this.lblhoac.Text = "hoặc";
             // 
             // pictureBox3
             // 
@@ -400,30 +400,30 @@
             this.pictureBox2.TabIndex = 12;
             this.pictureBox2.TabStop = false;
             // 
-            // label2
+            // lbllogin
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.DimGray;
-            this.label2.Location = new System.Drawing.Point(99, 111);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(133, 32);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Đăng nhập";
+            this.lbllogin.AutoSize = true;
+            this.lbllogin.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbllogin.ForeColor = System.Drawing.Color.DimGray;
+            this.lbllogin.Location = new System.Drawing.Point(99, 111);
+            this.lbllogin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbllogin.Name = "lbllogin";
+            this.lbllogin.Size = new System.Drawing.Size(133, 32);
+            this.lbllogin.TabIndex = 7;
+            this.lbllogin.Text = "Đăng nhập";
             // 
-            // label1
+            // lblemail
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.DimGray;
-            this.label1.Location = new System.Drawing.Point(40, 156);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 20);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Email";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.lblemail.AutoSize = true;
+            this.lblemail.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblemail.ForeColor = System.Drawing.Color.DimGray;
+            this.lblemail.Location = new System.Drawing.Point(40, 156);
+            this.lblemail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblemail.Name = "lblemail";
+            this.lblemail.Size = new System.Drawing.Size(46, 20);
+            this.lblemail.TabIndex = 6;
+            this.lblemail.Text = "Email";
+            this.lblemail.Click += new System.EventHandler(this.label1_Click);
             // 
             // shapeContainer1
             // 
@@ -491,7 +491,7 @@
             this.Text = "Dangkitaikhoan";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.lblErrorMessage2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconErrorMessage1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panelLeftIntro.ResumeLayout(false);
@@ -504,15 +504,15 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblErrorMessage;
-        private FontAwesome.Sharp.IconPictureBox lblErrorMessage2;
+        private FontAwesome.Sharp.IconPictureBox iconErrorMessage1;
         private Bunifu.UI.WinForms.BunifuTextBox txtEmailRegister;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lblhoac;
         private System.Windows.Forms.PictureBox pictureBox3;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bntdangnhapgg;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bntguimadangki;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbllogin;
+        private System.Windows.Forms.Label lblemail;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape2;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape1;
