@@ -75,8 +75,6 @@ namespace Monisoft_04._070821
             this.bunifuLabel4 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel5 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel6 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.panelLeftIntro = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lconErrorMessage2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lconErrorMessage1)).BeginInit();
@@ -85,8 +83,6 @@ namespace Monisoft_04._070821
             ((System.ComponentModel.ISupportInitialize)(this.lconErrorMessage3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panelLeftIntro.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // iconPictureBox4
@@ -891,34 +887,12 @@ namespace Monisoft_04._070821
             this.bunifuLabel6.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel6.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
-            // panelLeftIntro
-            // 
-            this.panelLeftIntro.Controls.Add(this.pictureBox2);
-            this.panelLeftIntro.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelLeftIntro.Location = new System.Drawing.Point(0, 0);
-            this.panelLeftIntro.Margin = new System.Windows.Forms.Padding(4);
-            this.panelLeftIntro.Name = "panelLeftIntro";
-            this.panelLeftIntro.Size = new System.Drawing.Size(705, 554);
-            this.panelLeftIntro.TabIndex = 3;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Monisoft_04._070821.Properties.Resources.Intro;
-            this.pictureBox2.Location = new System.Drawing.Point(0, -101);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1203, 794);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
             // hoantatdangki
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.panelLeftIntro);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "hoantatdangki";
@@ -932,8 +906,6 @@ namespace Monisoft_04._070821
             ((System.ComponentModel.ISupportInitialize)(this.lconErrorMessage3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panelLeftIntro.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -967,7 +939,5 @@ namespace Monisoft_04._070821
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label7;
         private Bunifu.UI.WinForms.BunifuCheckBox bunifuCheckBox1;
-        private System.Windows.Forms.Panel panelLeftIntro;
-        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

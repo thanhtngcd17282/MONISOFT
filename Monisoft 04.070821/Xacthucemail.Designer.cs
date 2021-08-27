@@ -60,12 +60,8 @@ namespace Monisoft_04._070821
             this.bunifuTextBox1 = new Bunifu.UI.WinForms.BunifuTextBox();
             this.bunifuTextBox3 = new Bunifu.UI.WinForms.BunifuTextBox();
             this.bunifuTextBox2 = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.panelLeftIntro = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panelLeftIntro.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -587,34 +583,12 @@ namespace Monisoft_04._070821
             this.bunifuTextBox2.UseSystemPasswordChar = false;
             this.bunifuTextBox2.WordWrap = true;
             // 
-            // panelLeftIntro
-            // 
-            this.panelLeftIntro.Controls.Add(this.pictureBox1);
-            this.panelLeftIntro.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelLeftIntro.Location = new System.Drawing.Point(0, 0);
-            this.panelLeftIntro.Margin = new System.Windows.Forms.Padding(4);
-            this.panelLeftIntro.Name = "panelLeftIntro";
-            this.panelLeftIntro.Size = new System.Drawing.Size(705, 554);
-            this.panelLeftIntro.TabIndex = 3;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Monisoft_04._070821.Properties.Resources.Intro;
-            this.pictureBox1.Location = new System.Drawing.Point(0, -101);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1203, 794);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // xacthucemail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.panelLeftIntro);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "xacthucemail";
@@ -622,8 +596,6 @@ namespace Monisoft_04._070821
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.panelLeftIntro.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -643,7 +615,5 @@ namespace Monisoft_04._070821
         private Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox2;
         private Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox1;
         private Bunifu.UI.WinForms.BunifuLabel lbxacthucemail;
-        private System.Windows.Forms.Panel panelLeftIntro;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
