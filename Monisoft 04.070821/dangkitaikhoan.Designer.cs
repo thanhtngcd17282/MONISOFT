@@ -44,13 +44,12 @@
             this.bntdangnhapgg = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bntguimadangki = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.lbllogin = new System.Windows.Forms.Label();
+            this.lblldangki = new System.Windows.Forms.Label();
             this.lblemail = new System.Windows.Forms.Label();
-            this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.lineShape2 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.panelLeftIntro = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.bunifuShapes1 = new Bunifu.UI.WinForms.BunifuShapes();
+            this.bunifuShapes2 = new Bunifu.UI.WinForms.BunifuShapes();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconErrorMessage1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -62,6 +61,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.bunifuShapes2);
+            this.panel1.Controls.Add(this.bunifuShapes1);
             this.panel1.Controls.Add(this.lblErrorMessage);
             this.panel1.Controls.Add(this.iconErrorMessage1);
             this.panel1.Controls.Add(this.txtEmailRegister);
@@ -70,9 +71,8 @@
             this.panel1.Controls.Add(this.bntdangnhapgg);
             this.panel1.Controls.Add(this.bntguimadangki);
             this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Controls.Add(this.lbllogin);
+            this.panel1.Controls.Add(this.lblldangki);
             this.panel1.Controls.Add(this.lblemail);
-            this.panel1.Controls.Add(this.shapeContainer1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel1.Location = new System.Drawing.Point(714, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
@@ -127,7 +127,7 @@
             this.txtEmailRegister.BorderThickness = 1;
             this.txtEmailRegister.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
             this.txtEmailRegister.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtEmailRegister.DefaultFont = new System.Drawing.Font("Montserrat", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmailRegister.DefaultFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmailRegister.DefaultText = "";
             this.txtEmailRegister.FillColor = System.Drawing.Color.White;
             this.txtEmailRegister.ForeColor = System.Drawing.Color.DimGray;
@@ -175,7 +175,7 @@
             this.txtEmailRegister.SelectionLength = 0;
             this.txtEmailRegister.SelectionStart = 0;
             this.txtEmailRegister.ShortcutsEnabled = true;
-            this.txtEmailRegister.Size = new System.Drawing.Size(271, 42);
+            this.txtEmailRegister.Size = new System.Drawing.Size(271, 43);
             this.txtEmailRegister.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtEmailRegister.TabIndex = 23;
             this.txtEmailRegister.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -191,7 +191,7 @@
             this.lblhoac.AutoSize = true;
             this.lblhoac.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblhoac.ForeColor = System.Drawing.Color.DimGray;
-            this.lblhoac.Location = new System.Drawing.Point(149, 356);
+            this.lblhoac.Location = new System.Drawing.Point(158, 354);
             this.lblhoac.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblhoac.Name = "lblhoac";
             this.lblhoac.Size = new System.Drawing.Size(41, 20);
@@ -328,7 +328,7 @@
             this.bntguimadangki.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.bntguimadangki.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.bntguimadangki.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.bntguimadangki.Font = new System.Drawing.Font("Montserrat", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntguimadangki.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntguimadangki.ForeColor = System.Drawing.SystemColors.Window;
             this.bntguimadangki.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bntguimadangki.IconLeftCursor = System.Windows.Forms.Cursors.Default;
@@ -339,7 +339,7 @@
             this.bntguimadangki.IconRightCursor = System.Windows.Forms.Cursors.Default;
             this.bntguimadangki.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
             this.bntguimadangki.IconSize = 25;
-            this.bntguimadangki.IdleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.bntguimadangki.IdleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(170)))), ((int)(((byte)(255)))));
             this.bntguimadangki.IdleBorderRadius = 15;
             this.bntguimadangki.IdleBorderThickness = 1;
             this.bntguimadangki.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(170)))), ((int)(((byte)(255)))));
@@ -365,7 +365,7 @@
             this.bntguimadangki.onHoverState.ForeColor = System.Drawing.Color.White;
             this.bntguimadangki.onHoverState.IconLeftImage = null;
             this.bntguimadangki.onHoverState.IconRightImage = null;
-            this.bntguimadangki.OnIdleState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.bntguimadangki.OnIdleState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(170)))), ((int)(((byte)(255)))));
             this.bntguimadangki.OnIdleState.BorderRadius = 15;
             this.bntguimadangki.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.bntguimadangki.OnIdleState.BorderThickness = 1;
@@ -400,17 +400,17 @@
             this.pictureBox2.TabIndex = 12;
             this.pictureBox2.TabStop = false;
             // 
-            // lbllogin
+            // lblldangki
             // 
-            this.lbllogin.AutoSize = true;
-            this.lbllogin.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbllogin.ForeColor = System.Drawing.Color.DimGray;
-            this.lbllogin.Location = new System.Drawing.Point(99, 111);
-            this.lbllogin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbllogin.Name = "lbllogin";
-            this.lbllogin.Size = new System.Drawing.Size(133, 32);
-            this.lbllogin.TabIndex = 7;
-            this.lbllogin.Text = "Đăng nhập";
+            this.lblldangki.AutoSize = true;
+            this.lblldangki.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblldangki.ForeColor = System.Drawing.Color.DimGray;
+            this.lblldangki.Location = new System.Drawing.Point(67, 111);
+            this.lblldangki.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblldangki.Name = "lblldangki";
+            this.lblldangki.Size = new System.Drawing.Size(203, 32);
+            this.lblldangki.TabIndex = 7;
+            this.lblldangki.Text = "Đăng kí tài khoản";
             // 
             // lblemail
             // 
@@ -424,38 +424,6 @@
             this.lblemail.TabIndex = 6;
             this.lblemail.Text = "Email";
             this.lblemail.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // shapeContainer1
-            // 
-            this.shapeContainer1.Location = new System.Drawing.Point(0, 0);
-            this.shapeContainer1.Margin = new System.Windows.Forms.Padding(0);
-            this.shapeContainer1.Name = "shapeContainer1";
-            this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
-            this.lineShape2,
-            this.lineShape1});
-            this.shapeContainer1.Size = new System.Drawing.Size(353, 554);
-            this.shapeContainer1.TabIndex = 21;
-            this.shapeContainer1.TabStop = false;
-            // 
-            // lineShape2
-            // 
-            this.lineShape2.BorderColor = System.Drawing.SystemColors.ButtonShadow;
-            this.lineShape2.Enabled = false;
-            this.lineShape2.Name = "lineShape2";
-            this.lineShape2.X1 = 202;
-            this.lineShape2.X2 = 304;
-            this.lineShape2.Y1 = 366;
-            this.lineShape2.Y2 = 366;
-            // 
-            // lineShape1
-            // 
-            this.lineShape1.BorderColor = System.Drawing.SystemColors.ButtonShadow;
-            this.lineShape1.Enabled = false;
-            this.lineShape1.Name = "lineShape1";
-            this.lineShape1.X1 = 33;
-            this.lineShape1.X2 = 135;
-            this.lineShape1.Y1 = 366;
-            this.lineShape1.Y2 = 366;
             // 
             // panelLeftIntro
             // 
@@ -477,6 +445,38 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // bunifuShapes1
+            // 
+            this.bunifuShapes1.Angle = 0F;
+            this.bunifuShapes1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuShapes1.BorderColor = System.Drawing.Color.Silver;
+            this.bunifuShapes1.BorderThickness = 2;
+            this.bunifuShapes1.FillColor = System.Drawing.Color.Transparent;
+            this.bunifuShapes1.FillShape = true;
+            this.bunifuShapes1.Location = new System.Drawing.Point(46, 362);
+            this.bunifuShapes1.Name = "bunifuShapes1";
+            this.bunifuShapes1.Shape = Bunifu.UI.WinForms.BunifuShapes.Shapes.Line;
+            this.bunifuShapes1.Sides = 5;
+            this.bunifuShapes1.Size = new System.Drawing.Size(102, 12);
+            this.bunifuShapes1.TabIndex = 26;
+            this.bunifuShapes1.Text = "bunifuShapes1";
+            // 
+            // bunifuShapes2
+            // 
+            this.bunifuShapes2.Angle = 0F;
+            this.bunifuShapes2.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuShapes2.BorderColor = System.Drawing.Color.Silver;
+            this.bunifuShapes2.BorderThickness = 2;
+            this.bunifuShapes2.FillColor = System.Drawing.Color.Transparent;
+            this.bunifuShapes2.FillShape = true;
+            this.bunifuShapes2.Location = new System.Drawing.Point(213, 362);
+            this.bunifuShapes2.Name = "bunifuShapes2";
+            this.bunifuShapes2.Shape = Bunifu.UI.WinForms.BunifuShapes.Shapes.Line;
+            this.bunifuShapes2.Sides = 5;
+            this.bunifuShapes2.Size = new System.Drawing.Size(102, 12);
+            this.bunifuShapes2.TabIndex = 27;
+            this.bunifuShapes2.Text = "bunifuShapes2";
             // 
             // Dangkitaikhoan
             // 
@@ -511,12 +511,11 @@
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bntdangnhapgg;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bntguimadangki;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label lbllogin;
+        private System.Windows.Forms.Label lblldangki;
         private System.Windows.Forms.Label lblemail;
-        private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape2;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape1;
         private System.Windows.Forms.Panel panelLeftIntro;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private Bunifu.UI.WinForms.BunifuShapes bunifuShapes2;
+        private Bunifu.UI.WinForms.BunifuShapes bunifuShapes1;
     }
 }
